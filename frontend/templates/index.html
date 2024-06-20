@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fruit Recognition</title>
+    <link type="text/css" href="{{ url_for('static', filename='index.css') }}" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Fruit Recognition</h1>
+      <div class="upload-container">
+        <label for="upload" class="custom-file-upload">
+          <i class="fas fa-cloud-upload-alt"></i> Choose a file
+        </label>
+        <input type="file" id="upload" accept="image/*" />
+        <button class="btn" onclick="uploadFile()">Upload</button>
+      </div>
+      <div id="result" class="card">
+        <h2>Predicted Fruit:</h2>
+        <img id="fruit-image" src="" alt="Uploaded Fruit" />
+      </div>
+    </div>
+    <script src="{{ url_for('static', filename='index.js') }}"></script>
+  </body>
+</html>

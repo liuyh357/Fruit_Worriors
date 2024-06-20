@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>orange4.jpg</filename>
+	<path>/Users/yuze/Documents/20232/人工智能原理/实验/大作业/images_from_google/images/orange4.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>275</width>
+		<height>183</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>orange</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>53</xmin>
+			<ymin>52</ymin>
+			<xmax>177</xmax>
+			<ymax>162</ymax>
+		</bndbox>
+	</object>
+</annotation>
